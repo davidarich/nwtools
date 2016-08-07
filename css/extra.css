@@ -1,0 +1,58 @@
+/* queryspec elements */
+#qs_table tr td {
+    padding: 5px;
+}
+
+/* reportsspec elements */
+#rs_table tr td {
+    padding: 5px;
+}
+
+/* Sortable advanced report elements */
+#rsoptions{
+    display: none;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+#sortable {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60%;
+}
+#sortable li {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+    height: 1.5em;
+}
+#sortable li {
+    height: 1.5em;
+    line-height: 1.2em; }
+.ui-state-highlight {
+    height: 1.5em;
+    line-height: 1.2em;
+}
+#sortinstructions{
+    font-size: 0.8em;
+}
+
+/* console look */
+#output{
+    font: 0.8em 'Andale Mono', Consolas, 'Courier New';
+    padding: 5px;
+    margin: 0px;
+    background: #141414;
+    color: #ffffff;
+    word-wrap: break-word;
+}
+#output-container{
+    display: none;
+    word-wrap: break-word;
+}
+
+/* make hr a smaller br */
+hr{
+    height:2px;
+    visibility:hidden;
+    margin-bottom:-1px;
+}
